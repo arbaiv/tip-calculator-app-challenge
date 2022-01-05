@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://github.com/arbaiv/tip-calculator-app-challenge)
+- Live Site URL: (https://quizzical-wozniak-f07a08.netlify.app/)
 
 ## My process
 
