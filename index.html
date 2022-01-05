@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator App</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png"/>
+    <meta name="description" content="This is a tip calculator app challenge by frontend mentor">
+    <meta name="keywords" content="Web Development, frontend, frontend mentor">
+    <meta name="author" content="Abdur Rahaman">
+    <!-- Link for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Main stylesheet of the page -->
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main id="container">
+        <header id="logo-header">
+            <h1>
+                <img id="logo" src="images/logo.svg" alt="Splitter - is the logo of the website">
+            </h1>
+        </header>
+        <div id="main-content">
+            <div id="form-sec">
+                <form>
+                    <div id="bill-sec" class="input-sec">
+                        <div id="bill-text-sec" class="text-sec-design">
+                            <label for="bill-input" id="bill-label" class="label-design">Bill</label>
+                            <p class="error-text-inactive">Can't be zero</p>
+                        </div>
+                        <input id="bill-input" type="number" name="bill" min="0" placeholder="0">
+                    </div>
+                    <div id="tip-sec">
+                        <p id="tip-text" class="label-design">Select Tip %</p>
+                        <div id="tip-buttons-sec">
+                            <button type="button" name="tip-button" value="5%" class="tip-buttons" aria-label="Select 5% tip">5%</button>
+                            <button type="button" name="tip-button" value="10%" class="tip-buttons" aria-label="Select 10% tip">10%</button>
+                            <button type="button" name="tip-button" value="15%" class="tip-buttons" aria-label="Select 15% tip">15%</button>
+                            <button type="button" name="tip-button" value="25%" class="tip-buttons" aria-label="Select 25% tip">25%</button>
+                            <button type="button" name="tip-button" value="50%" class="tip-buttons" aria-label="Select 50% tip">50%</button>
+                            <input type="text" name="custom" class="custom-tip-button" id="custom-tip-input" placeholder="Custom" aria-label="Select custom tip">
+                        </div>
+                    </div>
+                    <div id="people-input-sec" class="input-sec">
+                        <div id="people-text-sec" class="text-sec-design">
+                            <label for="people-input" id="people-label" class="label-design">Number of People</label>
+                            <p class="error-text-inactive">Can't be zero</p>
+                        </div>
+                        <input id="people-input" type="number" name="numberOfPeople" min="0" placeholder="0">
+                    </div>                        
+                </form>
+            </div>
+            <div id="calc-sec">
+                <div id="tip-container">
+                    <div id="tip-amount-sec" class="tip-sec" aria-live="assertive" aria-atomic="true">
+                        <div class="tip-amount-text">
+                            <p>Tip Amount</p>
+                            <span>/ person</span>
+                        </div>
+                        <div class="tip-amount">
+                            <h2 id="calc-tip">$0.00</h2>
+                        </div>
+                    </div>
+                    <div id="total-tip-sec" class="tip-sec" aria-live="assertive" aria-atomic="true">
+                        <div class="tip-amount-text">
+                            <p>Total</p>
+                            <span>/ person</span>
+                        </div>
+                        <div class="tip-amount">
+                            <h2 id="calc-total-tip">$0.00</h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="reset-button-sec">
+                    <button type="reset" name="reset" value="reset" id="reset-button" class="reset-button-design reset-button-inactive" aria-label="Reset Button">Reset</button>
+                </div>
+            </div>
+        </div> <!-- end of #main-content -->
+    </main>
+    <script src="script/main.js"></script>
+</body>
+</html>
