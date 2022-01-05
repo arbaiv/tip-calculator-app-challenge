@@ -59,6 +59,7 @@ The project would have taken less time if I used Jquery. But I am trying to impr
 
 - [Resource 1](https://stackoverflow.com/questions/9712295/disable-scrolling-on-input-type-number) - This helped me to disable scrolling in number input field.
 - [Resource 2](https://stackoverflow.com/questions/469357/html-text-input-allow-only-numeric-input) - This helped me to only allow users to enter number in a text input field. 
+- [Resource 3](https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/) - This helped me to learn how to convert string into a integer number or a point number. 
 
 ## Author
 
