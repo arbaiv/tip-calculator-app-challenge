@@ -64,7 +64,6 @@ The project would have taken less time if I used Jquery. But I am trying to impr
 ## Author
 
 - LinkedIn - [Abdur Rahaman](https://www.linkedin.com/in/abdur-rahaman-arb4/)
-- Frontend Mentor - [@arbaiv](https://www.frontendmentor.io/profile/arbaiv)
 - Github - [@arbaiv](https://github.com/arbaiv)
-- Facebook - [Abdur Rahaman](https://www.facebook.com/people/Abdur-Rahaman/100052283355364/)
-- Phone Number - [Country: Bangladesh](+8801775575562)
+- Twitter - [@arbaiv](https://twitter.com/arbaiv)
+- Frontend Mentor - [@arbaiv](https://www.frontendmentor.io/profile/arbaiv)
